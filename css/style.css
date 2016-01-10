@@ -5,7 +5,6 @@ body {
     font-size: 1em;
 }
 div {
-    border: 1px solid Chocolate;
 }
 
 html {
@@ -22,7 +21,7 @@ html {
 }
 
 .top-navigation > .content {
-	width: 970px;
+	width: 60%;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -47,7 +46,7 @@ html {
 	display:inline-block;
 	list-style-type: none;
 	color: #838994;
-	padding-left: 1.4em;
+	padding-left: 1.563em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.03em;
@@ -58,5 +57,48 @@ nav ul li:hover {
 }
 
 .main-content {
-	background-image: url('images/first-background.jpg');
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.main-content-over {
+	width: 30em;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+
+.main-content-over > h1 {
+	padding-top: 4.5em;
+	font-size: 3.125rem;
+	font-weight: 300;
+	margin: 0;
+}
+
+.main-content-over > h3 {
+	margin-top: 1.1em;
+	font-size: 1.563rem;
+	font-weight: 300;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.big-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    font-size: 1.125rem;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: inline-block;
 }
