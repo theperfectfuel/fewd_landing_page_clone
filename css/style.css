@@ -16,8 +16,12 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	border-bottom: 1px solid #ddd;
 	margin: 0;
 	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -68,11 +72,10 @@ nav ul li:hover {
 	width: 30em;
 	margin: 0 auto;
 	color: #fff;
-	text-align: center;
 }
 
 .main-content-over > h1 {
-	padding-top: 4.5em;
+	padding-top: 5.5em;
 	font-size: 3.125rem;
 	font-weight: 300;
 	margin: 0;
@@ -84,7 +87,7 @@ nav ul li:hover {
 	font-weight: 300;
 }
 
-.buttons {
+.buttons, .content, .main-content-over {
 	text-align: center;
 }
 
@@ -101,4 +104,49 @@ nav ul li:hover {
     color: #fff;
     padding: 1rem 1.5rem;
     display: inline-block;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
+}
+
+.cases {
+	background-color: #fff;
+	padding-bottom: 5rem;
+	overflow: hidden;
+}
+
+.content {
+	width: 60%;
+}
+
+.cases .content {
+	color: #1d1e21;
+	margin-top: 0rem;
+	margin: 0 auto;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin: 0rem 0 3.125rem;
+	padding-top: 7rem;
+}
+
+.cases .content li {
+	list-style: outside none none;
+}
+
+.cases .devices > li {
+	float: left;
+	width: 33.3333%;
+	display: inline-block;
+}
+
+.cases .devices h3 {
+	font-size: 1.563rem;
+	font-weight: 400;
+	margin: 2.5rem 0 1.875rem;
 }
